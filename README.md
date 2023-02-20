@@ -9,11 +9,11 @@ The data I propose to visualize for my project is both NFL Matchup Data and weat
 I’ve created a proof of concept visualization of this data. It's a scatterplot and it shows a teams average home field temperature verse home field win percentage.
 
 [![image](https://user-images.githubusercontent.com/30053669/220140963-8b7ab90a-5aae-4ea5-a401-d41af17d0309.png
-)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+)](https://vizhub.com/hmkyriacou/81abb1acee7349318800e1c420590a49)
 
 Also, this earlier prototype shows only four teams win percentage but using a piechart (angles) as the channel rather than x, y position.
 
-![image](https://user-images.githubusercontent.com/30053669/220141812-1b78aa11-bfa2-4a71-8de4-7266d3b5cb75.png)(https://vizhub.com/hmkyriacou/3a6357c278ee48e7927a2e32c2d3f356)
+[![image](https://user-images.githubusercontent.com/30053669/220141812-1b78aa11-bfa2-4a71-8de4-7266d3b5cb75.png)](https://vizhub.com/hmkyriacou/3a6357c278ee48e7927a2e32c2d3f356)
 
 
 ## Questions & Tasks
@@ -26,7 +26,7 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-[dataVizSketch2.pdf](https://github.com/hmkyriacou/dataviz-project-proposal/files/10785617/dataVizSketch2.pdf)
+![image](https://github.com/hmkyriacou/dataviz-project-proposal/files/10785617/dataVizSketch2.pdf)
 
 This sketch shows my plan to plot the teams according to their geological location and then show their win percentages on a pie chart. The weather would be encoded with "climate lines" that change based on the selection of temperature or percipation.
 
