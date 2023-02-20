@@ -39,11 +39,11 @@ After doing the scatter plot assignment though, I think having a scatter plot in
 
 ## Milestones
 
-Week 7 - Start finding better weather data and incorporate into the scatter plot
-Week 8 - Implement temperature/percipation switching
-Week 9 - Add month selections
-Week 10 - Add a switch to switch between "Map View" and "Scatterplot View"
-Week 11 - Add teams onto the Map View
-Week 12 - Add "climate lines" to Map View
-Week 13 - Add a way to visualize Home Field Advantage vs How a team does when playing away
-Week 14 - Implement the Home Field Advantage vs away team advantage in some way
+* Week 7 - Start finding better weather data and incorporate into the scatter plot
+* Week 8 - Implement temperature/percipation switching
+* Week 9 - Add month selections
+* Week 10 - Add a switch to switch between "Map View" and "Scatterplot View"
+* Week 11 - Add teams onto the Map View
+* Week 12 - Add "climate lines" to Map View
+* Week 13 - Add a way to visualize Home Field Advantage vs How a team does when playing away
+* Week 14 - Implement the Home Field Advantage vs away team advantage in some way
