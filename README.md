@@ -2,43 +2,48 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is both NFL Matchup Data and weather data for the cities that host NFL teams.
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I’ve created a proof of concept visualization of this data. It's a scatterplot and it shows a teams average home field temperature verse home field win percentage.
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+[![image](https://user-images.githubusercontent.com/30053669/220140963-8b7ab90a-5aae-4ea5-a401-d41af17d0309.png
+)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
+Also, this earlier prototype shows only four teams win percentage but using a piechart (angles) as the channel rather than x, y position.
 
-You can make images into links like this:
+![image](https://user-images.githubusercontent.com/30053669/220141812-1b78aa11-bfa2-4a71-8de4-7266d3b5cb75.png)(https://vizhub.com/hmkyriacou/3a6357c278ee48e7927a2e32c2d3f356)
 
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
-
-
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * Is there a relationship between home field temperature and home team advantage?
+ * Is there a relationship between home field rain/snow percipatation and home team advantage?
+ * Are there any other patterns in what teams have historically been very good at winning at home but not while away?
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+[dataVizSketch2.pdf](https://github.com/hmkyriacou/dataviz-project-proposal/files/10785617/dataVizSketch2.pdf)
+
+This sketch shows my plan to plot the teams according to their geological location and then show their win percentages on a pie chart. The weather would be encoded with "climate lines" that change based on the selection of temperature or percipation.
+
+After doing the scatter plot assignment though, I think having a scatter plot in addition to the map would be helpful. The user can switch between views to compare geological regions (on the map) to comparing teams (on the scatter plot).
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+* I am worried there will not be a visable correlation, the scatter plot I made shows a slight correlation with temperature I think, but I am hoping that adding more configurations (like percipation or during certain months) will make the home field advantage clearer.
+* I have been unable to find really good weather data. So far, I have only been able to piece the average temperature from several different sources and I haven't found average percipation by city yet either.
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+Week 7 - Start finding better weather data and incorporate into the scatter plot
+Week 8 - Implement temperature/percipation switching
+Week 9 - Add month selections
+Week 10 - Add a switch to switch between "Map View" and "Scatterplot View"
+Week 11 - Add teams onto the Map View
+Week 12 - Add "climate lines" to Map View
+Week 13 - Add a way to visualize Home Field Advantage vs How a team does when playing away
+Week 14 - Implement the Home Field Advantage vs away team advantage in some way
