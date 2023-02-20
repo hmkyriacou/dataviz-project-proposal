@@ -26,7 +26,7 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-![image](https://github.com/hmkyriacou/dataviz-project-proposal/files/10785617/dataVizSketch2.pdf)
+![image](https://user-images.githubusercontent.com/30053669/220146690-71412898-0f5f-4c06-a0ca-c8b877cb3617.png)
 
 This sketch shows my plan to plot the teams according to their geological location and then show their win percentages on a pie chart. The weather would be encoded with "climate lines" that change based on the selection of temperature or percipation.
 
